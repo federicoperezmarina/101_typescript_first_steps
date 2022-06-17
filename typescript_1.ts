@@ -18,3 +18,16 @@ poetLater = {
     name: "Mary Oliver",
 };
 
+//Aliased Object Types
+type Poet = {
+    born: number;
+    name: string;
+};
+
+let poetLater2: Poet;
+
+// Ok
+poetLater2 = {
+    born: 1935,
+    name: "Sara Teasdale",
+};
