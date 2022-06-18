@@ -15,8 +15,9 @@ let poetLater: {
 
 poetLater = {
     born: 1935,
-    name: "Mary Oliver",
+    name: "Mary Oliver"
 };
+console.log(poetLater);
 
 //Aliased Object Types
 type Poet = {
@@ -29,5 +30,6 @@ let poetLater2: Poet;
 // Ok
 poetLater2 = {
     born: 1935,
-    name: "Sara Teasdale",
+    name: "Sara Teasdale"
 };
+console.log(poetLater2)
