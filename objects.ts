@@ -4,32 +4,11 @@ const poet = {
     name: "Mary Oliver",
 };
 
-poet['born'];
-poet.name;
+console.log(poet.name)
 
-//Declaring Object Types
-let poetLater: {
-    born: number;
-    name: string;
-};
-
-poetLater = {
+let poet2 = {
     born: 1935,
-    name: "Mary Oliver"
-};
-console.log(poetLater);
-
-//Aliased Object Types
-type Poet = {
-    born: number;
-    name: string;
+    name: "Mary Oliver",
 };
 
-let poetLater2: Poet;
-
-// Ok
-poetLater2 = {
-    born: 1935,
-    name: "Sara Teasdale"
-};
-console.log(poetLater2)
+console.log(poet.name)
